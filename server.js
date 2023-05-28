@@ -109,14 +109,10 @@ let start = async () =>
 	console.log("Messages:")
   console.log(arrMessages);
   console.log(JSON.stringify(arrMessages));
-  
-  
-  
 
 }
 
 start();
-
 
 const wsServer = new webSocket.Server({port: 9000});
 

@@ -1,8 +1,23 @@
 {
+  "name": "socket_chat_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "Ilia Kramarenko",
+  "license": "MIT",
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "mongodb": "^5.5.0",
     "mongoose": "^7.2.1",
     "websocket": "^1.0.34",
-    "ws": "^8.13.0"
+    "ws": "^8.13.0",
+    "http": "0.0.1-security",
+    "socket.io": "^2.3.0"
   }
 }
